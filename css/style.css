@@ -1,0 +1,285 @@
+@font-face {
+  font-family : "코펍굵음";
+  src: url("../fonts/KoPubDotumBold_0.ttf");
+}
+
+@font-face {
+  font-family : "코펍중간";
+  src: url("../fonts/KoPubDotumMedium_0.ttf");
+}
+
+@font-face {
+  font-family : "은바탕";
+  src: url("../fonts/UnBatang_0.ttf");
+}
+
+@font-face {
+    font-family: 'Eulyoo1945-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MapoGoldenPier';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0;
+  height: 40px;
+  padding: 1rem;
+  color: white;
+  background: black;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 6;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'IBMPlexSansKR-Light';
+  margin: 50px;
+}
+
+body {
+  margin: 0;
+  padding-top: 72px;
+  background-color: black;
+}
+
+.swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  font-family: '은바탕';
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+ line-height: 70px;
+}
+
+.biomain{
+  display: flex;
+  position:relative;
+  align-items: flex-start;
+  width: 90%;
+  left: 100px;
+
+}
+.biophoto {
+  position: relative;
+  top: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0;
+}
+.biophoto img{
+  height: 500px;
+  margin-top: 10px;
+}
+.biohead{
+  color: white;
+  font-family: '코펍중간';
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.biotext{
+  color: white;
+  font-family: '코펍중간';
+  font-size: 17px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  margin-right: 60px;
+  line-height: 30px;
+}
+
+.copyright{
+  color: darkgray;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.artlink{
+ margin: 1px;
+}
+
+.artimage{
+
+  height: 300px;
+  width: auto;
+}
+
+.contact{
+  color: white;
+  text-align: center;
+  font-family: '은바탕';
+  font-size: 30px;
+  margin: 60px;
+ line-height: 50px;
+}
+
+@media (max-width: 1000px) {
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: 'IBMPlexSansKR-Light';
+    font-size: 14px;
+    margin: 15px;
+  }
+
+  h1{
+    font-size: 26px;
+  }
+
+  .biomain{
+    display: block;
+    position:relative;
+    width: 100%;
+    left: 0px;
+  }
+  .biophoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .biophoto img{
+    height: 500px;
+    margin-top: 10px;
+  }
+  .biohead{
+    color: white;
+    font-family: '코펍중간';
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .biotext{
+    color: white;
+    font-family: '코펍중간';
+    font-size: 17px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    line-height: 30px;
+  }
+
+}
+
+
+
+
+@media (max-width: 650px) {
+  body {
+    margin: 0;
+    padding-top: 119px;
+    background-color: black;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    /* width: 100% */
+    left: 0;
+    right: 0;
+    height: 87px;
+    padding: 1rem;
+    color: white;
+    background: black;
+    font-weight: 600;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 6;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: 'IBMPlexSansKR-Light';
+    font-size: 80%;
+    margin: 15px;
+  }
+
+  h1{
+    font-size: 28px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+  }
+
+  .swiper-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .swiper-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .artimage{
+
+    height: 180px;
+    width: auto;
+  }
+  .biohead{
+    color: white;
+    font-family: '코펍중간';
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .contact{
+    color: white;
+    text-align: center;
+    font-family: '은바탕';
+    font-size: 20px;
+    margin: 60px;
+   line-height: 50px;
+  }
