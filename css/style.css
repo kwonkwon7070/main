@@ -99,6 +99,15 @@ h2{
  line-height: 70px;
 }
 
+h3{
+  text-decoration: none;
+  color: white;
+  font-family: 'IBMPlexSansKR-Light';
+  font-size: 90%;
+  margin: 45px;
+  text-align: center;
+}
+
 .biomain{
   display: flex;
   position:relative;
